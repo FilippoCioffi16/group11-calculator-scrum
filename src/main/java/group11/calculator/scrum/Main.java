@@ -1,5 +1,5 @@
 package group11.calculator.scrum;
-/* 
+
 public class Main {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
@@ -23,7 +23,7 @@ public class Main {
         }
     }
 
-    /** Operazione con uno o due operandi. */ /* 
+    // Operazione con uno o due operandi.
     private static void runCalculation(Operation op, Calculator calculator,
                                        Memory memory, InputHandler input) {
         double a;
@@ -42,7 +42,7 @@ public class Main {
         }
     }
 
-    /** Comando senza operandi. Restituisce false se si deve uscire. */ /* 
+    /** Comando senza operandi. Restituisce false se si deve uscire. */  
     private static boolean runCommand(Operation op, Calculator calculator, Memory memory) {
         switch (op) {
             case SHOW_LAST:
@@ -79,4 +79,4 @@ public class Main {
         }
         return true;
     }
-}*/
+}
